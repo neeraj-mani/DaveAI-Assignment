@@ -332,8 +332,8 @@ document
         return 1;
       }
     });
-    if (this.value === "asc") renderPersonsList(sortedArray.reverse());
-    else if (this.value === "desc") renderPersonsList(sortedArray);
+    if (this.value === "asc") renderPersonsList(sortedArray);
+    else if (this.value === "desc") renderPersonsList(sortedArray.reverse());
   });
 
 // Pagination
